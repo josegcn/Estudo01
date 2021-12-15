@@ -1,0 +1,130 @@
+Operador	Descrição
+==	igual
+!=	diferente
+>	maior
+<	menor
+>=	maior ou igual
+<=	menor ou igual
+
+Formatação{} 
+:> alinhado a direita
+:2
+Operadores
+5**2 = 5 elevado a 2
+// = divisão com resultado inteiro
+% = Resto da divisão
+
+Ordem de execução:
+1 ()
+2 **
+3 * / // %
+4 + -
+
+++x acrescenta uma unidade ao x
+a += 5 soma 5 em a
+a -= 5 subtrai 5 em a
+a *= 5 multiplica a por 5
+a /= 5 divide a por 5
+a %= 5 divide a por 5 a resulta o resto da divisão
+a **= 5 eleva a por 5
+a //= 5 divide a por 5 e resulta num inteiro
+
+Operadores Ternários:
+esta_chovendo = True
+'Minhas roupas estão ' + ('secas.','molhadas.')[esta_chovendo] 
+    falsa   Verdadeira
+ou
+'Minhas roupas estão ' + ('molhadas.' if esta_chovendo else 'secas.') 
+
+Operador de Membro
+lista = [1,2,3,'Ana','Clara']
+2 in lista
+'Ana' not in lista
+
+Operador de Identidade
+x = 3
+y = z
+z = 3
+x is y (True)
+y is z (True)
+x is not z (False)
+
+Tipos numéricos
+a = 3
+b = 2.5
+b.is_integer (False)
+5.0.is_integer(True)
+(-2).__abs__() (2)
+abs(-2) (2)
+
+Strings
+doc = """Textos com múltiplas
+...linhas"""
+'''Também possível 
+...com aspas simples.'''
+\ (trata o próximo caracter de forma especial)
+\n (quebra de linha)
+
+Tratamento Strings
+nome = 'Ana Paula'
+nome[0] A
+nome[6] u
+nome[-3] u
+nome[4:] 'Paula'
+nome[-5:] 'Paula'
+nome[:3] 'Ana'
+nome[2:5] 'a P'
+numeros = '1234567890'
+numeros '1234567890'
+numeros[::] '1234567890'
+numeros[::2] '13579'
+numeros[1::2] '24680'
+numeros[::-1] '0987654321'
+numeros[::-2] '08642'
+nome[::-1] 'aluaP anA'
+
+frase = 'Python é uma linguagem excelente'
+frase.lower
+frase.upper
+'py' in frase false
+len(frase) tamanho
+frase.split()
+frase.split('A') Elimina caracter A da frase
+
+Lista []
+lista.append
+lista.remove()
+lista.reverse()	
+lista[-1] último elem. da lista
+
+tupla()
+
+Dicionário
+dic{}
+pessoa.get('idade') lê
+pessoa.pop('idade') remove ou del pessoa['idade']
+pessoa.update({'idade':15, 'sexo': 'M'})
+pessoa.clear() limpar conteúdo dicionário
+
+Conjunto
+c1.union(c2)
+c1.intersection(c2)
+c1.update(c2)altera o C1 a partir do C2
+c2 <= c1 c2 é subconjunto de c1
+c2 => c1 c2 é superconjunto de c1
+{1,2,3} - {2} = {1,3}
+c1 - c2
+c1 -= {2}
+
+interpolação
+print(f'Nome: {nome} Idade: {idade}')
+
+
+TT 	TQ	TV	Sorv +Saude
+V 	V 	50'	V	F		
+V	F	32'	V	F
+F	V	32'	V	F
+F	F	Null	Not V	V
+	
+	
+
